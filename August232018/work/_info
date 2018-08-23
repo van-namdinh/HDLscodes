@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vnd/WORK/HDLscodes/August232018
+vadd1
+!s110 1535008984
+!i10b 1
+!s100 AX?d>?^;HISFm?0NPiI:72
+IZ1T[oeSDSmnE;OYLf3W9[2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1535008975
+8module_fadd.v
+Fmodule_fadd.v
+L0 18
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1535008984.000000
+!s107 module_fadd.v|
+!s90 module_fadd.v|
+!i113 1
+Z3 tCvgOpt 0
+vadd16
+!s110 1535010876
+!i10b 1
+!s100 7QEWO<]PN>MkbGK52;7iN3
+IFXb::3mBIeSN_HTz>R@GA2
+R1
+R0
+w1535010872
+Z4 8module_add.v
+Z5 Fmodule_add.v
+L0 26
+R2
+r1
+!s85 0
+31
+!s108 1535010876.000000
+!s107 module_add.v|
+Z6 !s90 module_add.v|
+!i113 1
+R3
+vtop_module
+!s110 1535012435
+!i10b 1
+!s100 M]]UbhG01Yd;nCgLAW`Ka2
+I30nTC7O7Uedc`KoD:AN:62
+R1
+R0
+w1535012430
+R4
+R5
+L0 10
+R2
+r1
+!s85 0
+31
+!s108 1535012435.000000
+!s107 module_add.v|
+R6
+!i113 1
+R3

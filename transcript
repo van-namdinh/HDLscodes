@@ -1,0 +1,102 @@
+# OpenFile fifomem.vhd
+vsim work.fifo_mem
+# vsim work.fifo_mem 
+# Start time: 17:20:20 on Aug 23,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fifo_mem(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.write_pointer(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading ieee.numeric_std(body)
+# Loading work.memory_array(behavioral)
+# Loading work.status_signal(behavioral)
+add wave -position insertpoint  \
+sim:/fifo_mem/data_out \
+sim:/fifo_mem/fifo_full \
+sim:/fifo_mem/fifo_empty \
+sim:/fifo_mem/fifo_threshold \
+sim:/fifo_mem/fifo_overflow \
+sim:/fifo_mem/fifo_underflow \
+sim:/fifo_mem/clk \
+sim:/fifo_mem/rst_n \
+sim:/fifo_mem/wr \
+sim:/fifo_mem/rd \
+sim:/fifo_mem/data_in \
+sim:/fifo_mem/empty \
+sim:/fifo_mem/full \
+sim:/fifo_mem/wptr \
+sim:/fifo_mem/rptr \
+sim:/fifo_mem/fifo_we \
+sim:/fifo_mem/fifo_rd
+run 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_mem/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_mem/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_mem/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_mem/status_signal_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_mem/memory_array_unit
+quit -sim
+# End time: 17:20:50 on Aug 23,2018, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 5
+vsim work.tb_fifo_32
+# vsim work.tb_fifo_32 
+# Start time: 17:21:05 on Aug 23,2018
+# Loading work.tb_fifo_32
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fifo_mem(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.write_pointer(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading ieee.numeric_std(body)
+# Loading work.memory_array(behavioral)
+# Loading work.status_signal(behavioral)
+add wave -position insertpoint  \
+sim:/tb_fifo_32/ENDTIME \
+sim:/tb_fifo_32/clk \
+sim:/tb_fifo_32/rst_n \
+sim:/tb_fifo_32/wr \
+sim:/tb_fifo_32/rd \
+sim:/tb_fifo_32/data_in \
+sim:/tb_fifo_32/data_out \
+sim:/tb_fifo_32/fifo_empty \
+sim:/tb_fifo_32/fifo_full \
+sim:/tb_fifo_32/fifo_threshold \
+sim:/tb_fifo_32/fifo_overflow \
+sim:/tb_fifo_32/fifo_underflow \
+sim:/tb_fifo_32/i \
+sim:/tb_fifo_32/waddr \
+sim:/tb_fifo_32/raddr \
+sim:/tb_fifo_32/mem
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo_32/tb/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo_32/tb/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo_32/tb/status_signal_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo_32/tb/status_signal_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo_32/tb/memory_array_unit
+# ----------------------------------------------
+# ------------------   -----------------------
+# ----------- SIMULATION RESULT ----------------
+# --------------       -------------------
+# ----------------     ---------------------
+# ----------------------------------------------
+# TIME =                    0, wr = 0, rd = 0, data_in = 00
+# TIME =                   10, data_out =   x, mem =   x
+quit -sim
+# End time: 17:21:24 on Aug 23,2018, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 5
+quit
