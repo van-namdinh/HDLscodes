@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vnd/WORK/HDLscodes/rtl
+vadd1
+Z1 !s110 1535373852
+!i10b 1
+!s100 kE^5IB:]]6Md0EQj82jz?1
+I2DOZgS<TnTfE=CSn=[2XC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1535373851
+Z4 8module_fadd.v
+Z5 Fmodule_fadd.v
+L0 61
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1535373852.000000
+Z8 !s107 module_fadd.v|
+Z9 !s90 module_fadd.v|
+!i113 1
+Z10 tCvgOpt 0
+vmux2
+!s110 1535361639
+!i10b 1
+!s100 Y82gEbKnbZ=OIk^H55S4k1
+IVoFJY9U08KkiCdhdfDaV72
+R2
+R0
+w1535361630
+8mux2.v
+Fmux2.v
+Z11 L0 10
+R6
+r1
+!s85 0
+31
+!s108 1535361639.000000
+!s107 mux2.v|
+!s90 mux2.v|
+!i113 1
+R10
+vtb_N_bit_adder
+!s110 1535360206
+!i10b 1
+!s100 9jk8G:nCoSRznINb:FCPG0
+IC6n<VkQML8R32bVEQ?WHK1
+R2
+R0
+w1535020181
+8nbitadderTB.v
+FnbitadderTB.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1535360206.000000
+!s107 nbitadderTB.v|
+!s90 nbitadderTB.v|
+!i113 1
+R10
+ntb_@n_bit_adder
+vtop_module
+R1
+!i10b 1
+!s100 X@AM>Q[;[@m43[49hhEdM0
+IeWdFLYhESn_MOVmZ6bSb11
+R2
+R0
+R3
+R4
+R5
+R11
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
