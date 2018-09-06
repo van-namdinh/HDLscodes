@@ -7,6 +7,11 @@
  * Desc           :
  */
 
+module add1 (input a, input b, input cin, output sum, output cout);
+    assign  sum  = a ^ b ^ cin;
+    assign  cout = a&b|a&cin|b&cin;
+    endmodule
+
 module top_module(
     input   [31:0]  a, b,
     output  [31:0]  sum
@@ -36,29 +41,24 @@ module top_module(
     
 //    add16 add2 (a[31:16], b[31:16],coutadd1,sumadd162,cout);
     add1 ins17 (a[16], b[16], coutadd1, sumadd162[0], wo16);
-    add1 ins22 (a[17], b[17], wo16, sumadd162[1], wo22); 
-    add1 ins33 (a[18], b[18], wo22, sumadd162[2], wo33); 
-    add1 ins44 (a[19], b[19], wo33, sumadd162[3], wo44); 
-    add1 ins55 (a[20], b[20], wo44, sumadd162[4], wo55); 
-    add1 ins66 (a[21], b[21], wo55, sumadd162[5], wo66); 
-    add1 ins77 (a[22], b[22], wo66, sumadd162[6], wo77); 
-    add1 ins88 (a[23], b[23], wo77, sumadd162[7], wo88); 
-    add1 ins99 (a[24], b[24], wo88, sumadd162[8], wo99); 
-    add1 ins100 (a[25], b[25], wo99, sumadd162[9], wo100); 
-    add1 ins111 (a[26], b[26], wo100, sumadd162[10], wo111); 
-    add1 ins122 (a[27], b[27], wo111, sumadd162[11], wo122); 
-    add1 ins133 (a[28], b[28], wo122, sumadd162[12], wo133); 
-    add1 ins144 (a[29], b[29], wo133, sumadd162[13], wo144); 
-    add1 ins155 (a[30], b[30], wo144, sumadd162[14], wo155); 
-    add1 ins166 (a[31], b[31], wo155, sumadd162[15], coutadd2); 
+    add1 ins18 (a[17], b[17], wo16, sumadd162[1], wo22); 
+    add1 ins19 (a[18], b[18], wo22, sumadd162[2], wo33); 
+    add1 ins20 (a[19], b[19], wo33, sumadd162[3], wo44); 
+    add1 ins21 (a[20], b[20], wo44, sumadd162[4], wo55); 
+    add1 ins22 (a[21], b[21], wo55, sumadd162[5], wo66); 
+    add1 ins23 (a[22], b[22], wo66, sumadd162[6], wo77); 
+    add1 ins24 (a[23], b[23], wo77, sumadd162[7], wo88); 
+    add1 ins25 (a[24], b[24], wo88, sumadd162[8], wo99); 
+    add1 ins26 (a[25], b[25], wo99, sumadd162[9], wo100); 
+    add1 ins27 (a[26], b[26], wo100, sumadd162[10], wo111); 
+    add1 ins28 (a[27], b[27], wo111, sumadd162[11], wo122); 
+    add1 ins29 (a[28], b[28], wo122, sumadd162[12], wo133); 
+    add1 ins30 (a[29], b[29], wo133, sumadd162[13], wo144); 
+    add1 ins31 (a[30], b[30], wo144, sumadd162[14], wo155); 
+    add1 ins32 (a[31], b[31], wo155, sumadd162[15], coutadd2); 
     
-
     add16 insmod1(a[15:0],b[15:0],1'b0, sumadd161,cout1);
     add16 insmod2(a[31:16],b[31:16], cout1,sumadd162,cout2);
     assign sum = {sumadd162, sumadd161};
 endmodule
 
-module add1 (input a, input b, input cin, output sum, output cout);
-    assign  sum  = a ^ b ^ cin;
-    assign  cout = a&b|a&cin|b&cin;
-    endmodule

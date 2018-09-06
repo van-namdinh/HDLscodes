@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vnd/WORK/HDLscodes/rtl/dff_vnd
+vRisingEdge_DFlipFlop_SyncReset
+!s110 1536209438
+!i10b 1
+!s100 A>hKLkYClbQZX:^1SIPDF1
+IbN2nP:ha^UdYWNI@lhWiM2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1536209434
+8dff_synch.v
+Fdff_synch.v
+L0 12
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1536209438.000000
+!s107 dff_synch.v|
+!s90 -reportprogress|300|dff_synch.v|
+!i113 1
+Z4 tCvgOpt 0
+n@rising@edge_@d@flip@flop_@sync@reset
+vtb_DFF
+!s110 1536209439
+!i10b 1
+!s100 =Fl;n44c4aLkJOoh=5[]b3
+IHk5F6mV1G4A5VQ`<GBnn`0
+R1
+R0
+w1536209102
+8dff_tb.v
+Fdff_tb.v
+L0 10
+R2
+r1
+!s85 0
+31
+R3
+!s107 dff_tb.v|
+!s90 -reportprogress|300|dff_tb.v|
+!i113 1
+R4
+ntb_@d@f@f

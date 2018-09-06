@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vnd/WORK/HDLscodes/rtl/xstproj
+vv_register_1
+!s110 1536220562
+!i10b 1
+!s100 RA=o[ZQBAO5A@DZl1DLcU2
+I?E8aFoKfEk61?OCfQZW9D2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1536220485
+8ff_pos_clk.v
+Fff_pos_clk.v
+Z2 L0 12
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1536220562.000000
+!s107 ff_pos_clk.v|
+!s90 ff_pos_clk.v|
+!i113 1
+Z4 tCvgOpt 0
+vv_register_2
+!s110 1536220840
+!i10b 1
+!s100 3YDL@QGe_QSGdl[fC405L3
+I`PTDkVc7jY=jWg0H<FLCJ0
+R1
+R0
+w1536220835
+8v_register_2.v
+Fv_register_2.v
+Z5 L0 13
+R3
+r1
+!s85 0
+31
+!s108 1536220840.000000
+!s107 v_register_2.v|
+!s90 v_register_2.v|
+!i113 1
+R4
+vv_registers_2
+!s110 1536220896
+!i10b 1
+!s100 f>[9UdC;f`^9ZC8m1E1@X2
+IfL@?X2k>3`a0PUfdCG_=>0
+R1
+R0
+w1536220892
+8v_registers_2.v
+Fv_registers_2.v
+R5
+R3
+r1
+!s85 0
+31
+!s108 1536220896.000000
+!s107 v_registers_2.v|
+!s90 v_registers_2.v|
+!i113 1
+R4
+vv_registers_3
+!s110 1536221034
+!i10b 1
+!s100 I?Ik7NjTUa1X?Il=l=]XZ0
+I?a<joNDFQ2YcjVV?aT^@43
+R1
+R0
+w1536221030
+8v_registers_3.v
+Fv_registers_3.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1536221034.000000
+!s107 v_registers_3.v|
+!s90 v_registers_3.v|
+!i113 1
+R4
+vv_registers_4
+!s110 1536221183
+!i10b 1
+!s100 ^;YXdCJFl3^J0[V?:KDbn3
+Ib@kR6RA01[eC;Mf:FM2AQ0
+R1
+R0
+w1536221178
+8v_registers_4.v
+Fv_registers_4.v
+Z6 L0 14
+R3
+r1
+!s85 0
+31
+!s108 1536221183.000000
+!s107 v_registers_4.v|
+!s90 v_registers_4.v|
+!i113 1
+R4
+vv_registers_5
+!s110 1536221357
+!i10b 1
+!s100 POGke=oJ=DaYDc4`TZTWn1
+IPjm=XVYaV1;nkRbmJFFNd1
+R1
+R0
+w1536221352
+8v_registers_5.v
+Fv_registers_5.v
+R6
+R3
+r1
+!s85 0
+31
+!s108 1536221357.000000
+!s107 v_registers_5.v|
+!s90 v_registers_5.v|
+!i113 1
+R4

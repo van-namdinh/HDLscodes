@@ -1,0 +1,98 @@
+ls
+# 01Wire.v
+# 7468.v
+# andgate.v
+# dff_asynch.v
+# dff_basic.v
+# dff_synch.v
+# dff_tb.v
+# fifomemTB.v
+# fifomem.v
+# fifomem.vhd
+# module_add.v
+# module_cseladd.v
+# module_fadd.v
+# module_faddv2.v
+# module_shift8(sol).v
+# module_shift(sol).v
+# module(sol).v
+# mux2.v
+# nbitadderTB.v
+# nbitadder.v
+# norgate.v
+# notgate(sol).v
+# notgate.v
+# step_one(sol).v
+# transcript
+# vector0(sol).v
+# vector1(sol).v
+# vector2(sol).v
+# vector4(sol).v
+# vector5(sol).v
+# vectorgates(sol).v
+# vectorr(sol).v
+# wire4(sol).v
+# Wire4.v
+# wiredeclprac.v
+# wire_decl(sol).v
+# wiredecl.v
+# wire(sol).v
+# work
+# xnorgate.v
+# zero(sol).v
+vlog dff_synch.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:04 on Sep 06,2018
+# vlog -reportprogress 300 dff_synch.v 
+# -- Compiling module RisingEdge_DFlipFlop_SyncReset
+# 
+# Top level modules:
+# 	RisingEdge_DFlipFlop_SyncReset
+# End time: 09:44:04 on Sep 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog dff_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:11 on Sep 06,2018
+# vlog -reportprogress 300 dff_tb.v 
+# -- Compiling module tb_DFF
+# 
+# Top level modules:
+# 	tb_DFF
+# End time: 09:44:11 on Sep 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_DFF
+# vsim work.tb_DFF 
+# Start time: 09:44:17 on Sep 06,2018
+# Loading work.tb_DFF
+# Loading work.RisingEdge_DFlipFlop_SyncReset
+add wave -position insertpoint  \
+sim:/tb_DFF/D \
+sim:/tb_DFF/clk \
+sim:/tb_DFF/reset \
+sim:/tb_DFF/Q
+run -all
+# Break key hit
+# Simulation stop requested.
+
+
+quit -sim
+# End time: 09:47:28 on Sep 06,2018, Elapsed time: 0:03:11
+# Errors: 0, Warnings: 0
+vsim work.tb_DFF
+# vsim work.tb_DFF 
+# Start time: 09:48:59 on Sep 06,2018
+# Loading work.tb_DFF
+# Loading work.RisingEdge_DFlipFlop_SyncReset
+add wave -position insertpoint  \
+sim:/tb_DFF/D \
+sim:/tb_DFF/clk \
+sim:/tb_DFF/reset \
+sim:/tb_DFF/Q
+
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 09:51:09 on Sep 06,2018, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+quit 

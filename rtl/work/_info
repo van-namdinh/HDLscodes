@@ -9,25 +9,25 @@ z2
 cModel Technology
 Z0 d/home/vnd/WORK/HDLscodes/rtl
 vadd1
-Z1 !s110 1535373852
+Z1 !s110 1535453441
 !i10b 1
-!s100 kE^5IB:]]6Md0EQj82jz?1
-I2DOZgS<TnTfE=CSn=[2XC0
+!s100 2L?Q@5eU4=WbGVU:aH^C50
+IZK8cICTaVj_KT7;i0XL9Q1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1535373851
-Z4 8module_fadd.v
-Z5 Fmodule_fadd.v
-L0 61
-Z6 OV;L;10.5b;63
+Z3 w1535453434
+Z4 8module_faddv2.v
+Z5 Fmodule_faddv2.v
+Z6 L0 10
+Z7 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1535373852.000000
-Z8 !s107 module_fadd.v|
-Z9 !s90 module_fadd.v|
+Z8 !s108 1535453441.000000
+Z9 !s107 module_faddv2.v|
+Z10 !s90 module_faddv2.v|
 !i113 1
-Z10 tCvgOpt 0
+Z11 tCvgOpt 0
 vmux2
 !s110 1535361639
 !i10b 1
@@ -38,8 +38,8 @@ R0
 w1535361630
 8mux2.v
 Fmux2.v
-Z11 L0 10
 R6
+R7
 r1
 !s85 0
 31
@@ -47,7 +47,112 @@ r1
 !s107 mux2.v|
 !s90 mux2.v|
 !i113 1
-R10
+R11
+vRisingEdge_DFF_Asyn
+!s110 1536201478
+!i10b 1
+!s100 4]LEIO:26UaKWJkY8[GcY3
+IABEOSDHRnM]@TSI][g6VT3
+R2
+R0
+w1536201475
+8dff_asynch.v
+Fdff_asynch.v
+Z12 L0 12
+R7
+r1
+!s85 0
+31
+!s108 1536201478.000000
+!s107 dff_asynch.v|
+!s90 dff_asynch.v|
+!i113 1
+R11
+n@rising@edge_@d@f@f_@asyn
+vRisingEdge_DFF_SynReset
+!s110 1536201239
+!i10b 1
+!s100 ]b[=kDB81JVYoYCImL<PR2
+ITD<1e0a@Dde=5JP^QFPaf0
+R2
+R0
+w1536201236
+Z13 8dff_synch.v
+Z14 Fdff_synch.v
+R12
+R7
+r1
+!s85 0
+31
+!s108 1536201239.000000
+Z15 !s107 dff_synch.v|
+!s90 dff_synch.v|
+!i113 1
+R11
+n@rising@edge_@d@f@f_@syn@reset
+vRisingEdge_DFlipFlop
+!s110 1536200933
+!i10b 1
+!s100 V6[6T@bnISgak_?ZYlG8C3
+IaRNjAf[>PMzcjEbU62HEK3
+R2
+R0
+w1536200930
+8dff_basic.v
+Fdff_basic.v
+R12
+R7
+r1
+!s85 0
+31
+!s108 1536200933.000000
+!s107 dff_basic.v|
+!s90 dff_basic.v|
+!i113 1
+R11
+n@rising@edge_@d@flip@flop
+vRisingEdge_DFlipFlop_SyncReset
+!s110 1536201844
+!i10b 1
+!s100 :6cHh;VXJd14MD_BA=mgR1
+I6eAcSfJo6S<M:o2cDAoj01
+R2
+R0
+w1536201819
+R13
+R14
+R12
+R7
+r1
+!s85 0
+31
+!s108 1536201844.000000
+R15
+!s90 -reportprogress|300|dff_synch.v|
+!i113 1
+R11
+n@rising@edge_@d@flip@flop_@sync@reset
+vtb_DFF
+!s110 1536201851
+!i10b 1
+!s100 hgcnA?GE@2`4AVHL<3h3m0
+Ie>[D3NnKHEBOQQlP9RfeL3
+R2
+R0
+w1536201792
+8dff_tb.v
+Fdff_tb.v
+R6
+R7
+r1
+!s85 0
+31
+!s108 1536201851.000000
+!s107 dff_tb.v|
+!s90 -reportprogress|300|dff_tb.v|
+!i113 1
+R11
+ntb_@d@f@f
 vtb_N_bit_adder
 !s110 1535360206
 !i10b 1
@@ -59,7 +164,7 @@ w1535020181
 8nbitadderTB.v
 FnbitadderTB.v
 L0 4
-R6
+R7
 r1
 !s85 0
 31
@@ -67,25 +172,25 @@ r1
 !s107 nbitadderTB.v|
 !s90 nbitadderTB.v|
 !i113 1
-R10
+R11
 ntb_@n_bit_adder
 vtop_module
 R1
 !i10b 1
-!s100 X@AM>Q[;[@m43[49hhEdM0
-IeWdFLYhESn_MOVmZ6bSb11
+!s100 @LJ^12l=hP92:gE:ZAZC23
+I0ce?XA]Mk<kVo`Ij`Yjg72
 R2
 R0
 R3
 R4
 R5
-R11
-R6
+L0 18
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
+R11
