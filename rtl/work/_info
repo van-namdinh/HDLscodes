@@ -9,37 +9,100 @@ z2
 cModel Technology
 Z0 d/home/vnd/WORK/HDLscodes/rtl
 vadd1
-Z1 !s110 1535453441
+!s110 1535453441
 !i10b 1
 !s100 2L?Q@5eU4=WbGVU:aH^C50
 IZK8cICTaVj_KT7;i0XL9Q1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1535453434
-Z4 8module_faddv2.v
-Z5 Fmodule_faddv2.v
-Z6 L0 10
-Z7 OV;L;10.5b;63
+w1535453434
+8module_faddv2.v
+Fmodule_faddv2.v
+Z2 L0 10
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z8 !s108 1535453441.000000
-Z9 !s107 module_faddv2.v|
-Z10 !s90 module_faddv2.v|
+!s108 1535453441.000000
+!s107 module_faddv2.v|
+!s90 module_faddv2.v|
 !i113 1
-Z11 tCvgOpt 0
+Z4 tCvgOpt 0
+vDW01_absval_inst
+!s110 1537359034
+!i10b 1
+!s100 ??T6hCJZzC`YLOB]7QA0K1
+IP`5A4H0S5TO3TI[i205hg3
+R1
+R0
+w1537359029
+8DW01_absval_inst.v
+FDW01_absval_inst.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1537359034.000000
+!s107 DW01_absval_inst.v|
+!s90 DW01_absval_inst.v|
+!i113 1
+R4
+n@d@w01_absval_inst
+vDW01_add_inst
+!s110 1537358268
+!i10b 1
+!s100 a3VhSdg7VCZB39dSoMel11
+IK<3DEbQzOL4nAO?aXeh=21
+R1
+R0
+w1537358261
+8DW01_add_inst.v
+FDW01_add_inst.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1537358267.000000
+!s107 DW01_add_inst.v|
+!s90 DW01_add_inst.v|
+!i113 1
+R4
+n@d@w01_add_inst
+vDW01_add_oper
+!s110 1537358429
+!i10b 1
+!s100 62Ke5j`[UTiTc3LoefFCE1
+IU[@[d_DVY?IzIn4]E<WGM2
+R1
+R0
+w1537358424
+8DW01_add_oper.v
+FDW01_add_oper.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1537358429.000000
+!s107 DW01_add_oper.v|
+!s90 DW01_add_oper.v|
+!i113 1
+R4
+n@d@w01_add_oper
 vmux2
 !s110 1535361639
 !i10b 1
 !s100 Y82gEbKnbZ=OIk^H55S4k1
 IVoFJY9U08KkiCdhdfDaV72
-R2
+R1
 R0
 w1535361630
 8mux2.v
 Fmux2.v
-R6
-R7
+R2
+R3
 r1
 !s85 0
 31
@@ -47,19 +110,19 @@ r1
 !s107 mux2.v|
 !s90 mux2.v|
 !i113 1
-R11
+R4
 vRisingEdge_DFF_Asyn
 !s110 1536201478
 !i10b 1
 !s100 4]LEIO:26UaKWJkY8[GcY3
 IABEOSDHRnM]@TSI][g6VT3
-R2
+R1
 R0
 w1536201475
 8dff_asynch.v
 Fdff_asynch.v
-Z12 L0 12
-R7
+Z5 L0 12
+R3
 r1
 !s85 0
 31
@@ -67,41 +130,41 @@ r1
 !s107 dff_asynch.v|
 !s90 dff_asynch.v|
 !i113 1
-R11
+R4
 n@rising@edge_@d@f@f_@asyn
 vRisingEdge_DFF_SynReset
 !s110 1536201239
 !i10b 1
 !s100 ]b[=kDB81JVYoYCImL<PR2
 ITD<1e0a@Dde=5JP^QFPaf0
-R2
+R1
 R0
 w1536201236
-Z13 8dff_synch.v
-Z14 Fdff_synch.v
-R12
-R7
+Z6 8dff_synch.v
+Z7 Fdff_synch.v
+R5
+R3
 r1
 !s85 0
 31
 !s108 1536201239.000000
-Z15 !s107 dff_synch.v|
+Z8 !s107 dff_synch.v|
 !s90 dff_synch.v|
 !i113 1
-R11
+R4
 n@rising@edge_@d@f@f_@syn@reset
 vRisingEdge_DFlipFlop
 !s110 1536200933
 !i10b 1
 !s100 V6[6T@bnISgak_?ZYlG8C3
 IaRNjAf[>PMzcjEbU62HEK3
-R2
+R1
 R0
 w1536200930
 8dff_basic.v
 Fdff_basic.v
-R12
-R7
+R5
+R3
 r1
 !s85 0
 31
@@ -109,41 +172,41 @@ r1
 !s107 dff_basic.v|
 !s90 dff_basic.v|
 !i113 1
-R11
+R4
 n@rising@edge_@d@flip@flop
 vRisingEdge_DFlipFlop_SyncReset
 !s110 1536201844
 !i10b 1
 !s100 :6cHh;VXJd14MD_BA=mgR1
 I6eAcSfJo6S<M:o2cDAoj01
-R2
+R1
 R0
 w1536201819
-R13
-R14
-R12
+R6
 R7
+R5
+R3
 r1
 !s85 0
 31
 !s108 1536201844.000000
-R15
+R8
 !s90 -reportprogress|300|dff_synch.v|
 !i113 1
-R11
+R4
 n@rising@edge_@d@flip@flop_@sync@reset
 vtb_DFF
 !s110 1536201851
 !i10b 1
 !s100 hgcnA?GE@2`4AVHL<3h3m0
 Ie>[D3NnKHEBOQQlP9RfeL3
-R2
+R1
 R0
 w1536201792
 8dff_tb.v
 Fdff_tb.v
-R6
-R7
+R2
+R3
 r1
 !s85 0
 31
@@ -151,20 +214,20 @@ r1
 !s107 dff_tb.v|
 !s90 -reportprogress|300|dff_tb.v|
 !i113 1
-R11
+R4
 ntb_@d@f@f
 vtb_N_bit_adder
 !s110 1535360206
 !i10b 1
 !s100 9jk8G:nCoSRznINb:FCPG0
 IC6n<VkQML8R32bVEQ?WHK1
-R2
+R1
 R0
 w1535020181
 8nbitadderTB.v
 FnbitadderTB.v
 L0 4
-R7
+R3
 r1
 !s85 0
 31
@@ -172,25 +235,25 @@ r1
 !s107 nbitadderTB.v|
 !s90 nbitadderTB.v|
 !i113 1
-R11
+R4
 ntb_@n_bit_adder
 vtop_module
-R1
+!s110 1538384503
 !i10b 1
-!s100 @LJ^12l=hP92:gE:ZAZC23
-I0ce?XA]Mk<kVo`Ij`Yjg72
-R2
+!s100 zl4MR]KR7_k]DSKR1dT8M0
+I;9IeiCk0SEQI9feYnUnBV1
+R1
 R0
+w1538384498
+8dff8ar_vndv1.v
+Fdff8ar_vndv1.v
+R2
 R3
-R4
-R5
-L0 18
-R7
 r1
 !s85 0
 31
-R8
-R9
-R10
+!s108 1538384503.000000
+!s107 dff8ar_vndv1.v|
+!s90 dff8ar_vndv1.v|
 !i113 1
-R11
+R4
