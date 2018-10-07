@@ -2,10 +2,23 @@ ls
 # 01Wire.v
 # 7468.v
 # andgate.v
-# dff_asynch.v
-# dff_basic.v
-# dff_synch.v
-# dff_tb.v
+# couter4bit_tb.v
+# couter4bit.v
+# dff8ar_vndv1.v
+# dff8p_vndv1.v
+# dff8r_ref.v
+# dff8r_vndv1.v
+# dff8r_vndv2.v
+# dff8r_vndv3.v
+# dff8_sol.v
+# dff8_vndv1.v
+# dff_sol.v
+# dffv1.v
+# dff_vnd
+# DW01_absval_func.v
+# DW01_absval_inst.v
+# DW01_add_inst.v
+# DW01_add_oper.v
 # fifomemTB.v
 # fifomem.v
 # fifomem.vhd
@@ -31,6 +44,7 @@ ls
 # vector5(sol).v
 # vectorgates(sol).v
 # vectorr(sol).v
+# vsim.wlf
 # wire4(sol).v
 # Wire4.v
 # wiredeclprac.v
@@ -39,60 +53,65 @@ ls
 # wire(sol).v
 # work
 # xnorgate.v
+# xstproj
 # zero(sol).v
-vlog dff_synch.v
+vlog couter4bit.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:44:04 on Sep 06,2018
-# vlog -reportprogress 300 dff_synch.v 
-# -- Compiling module RisingEdge_DFlipFlop_SyncReset
+# Start time: 16:40:47 on Oct 03,2018
+# vlog -reportprogress 300 couter4bit.v 
+# -- Compiling module couter4bit
 # 
 # Top level modules:
-# 	RisingEdge_DFlipFlop_SyncReset
-# End time: 09:44:04 on Sep 06,2018, Elapsed time: 0:00:00
+# 	couter4bit
+# End time: 16:40:47 on Oct 03,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog dff_tb.v
+vcom couter4bit_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:57 on Oct 03,2018
+# vcom -reportprogress 300 couter4bit_tb.v 
+# -- Loading package STANDARD
+# ** Error: couter4bit_tb.v(1): near "/": syntax error
+# End time: 16:40:57 on Oct 03,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/vnd/WORKmixlater/source-codes/intelFPGA/16.1/modelsim_ase/linuxaloem/vcom failed.
+vlog couter4bit_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:44:11 on Sep 06,2018
-# vlog -reportprogress 300 dff_tb.v 
-# -- Compiling module tb_DFF
+# Start time: 16:41:07 on Oct 03,2018
+# vlog -reportprogress 300 couter4bit_tb.v 
+# -- Compiling module tb_counter
 # 
 # Top level modules:
-# 	tb_DFF
-# End time: 09:44:11 on Sep 06,2018, Elapsed time: 0:00:00
+# 	tb_counter
+# End time: 16:41:07 on Oct 03,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.tb_DFF
-# vsim work.tb_DFF 
-# Start time: 09:44:17 on Sep 06,2018
-# Loading work.tb_DFF
-# Loading work.RisingEdge_DFlipFlop_SyncReset
+vsim work.tb_counter
+# vsim work.tb_counter 
+# Start time: 16:41:18 on Oct 03,2018
+# Loading work.tb_counter
+# ** Error: (vsim-3033) couter4bit_tb.v(15): Instantiation of 'couter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_counter File: couter4bit_tb.v
+#         Searched libraries:
+#             /home/vnd/WORK/HDLscodes/rtl/work
+# Error loading design
+# End time: 16:41:19 on Oct 03,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.couter4bit
+# vsim work.couter4bit 
+# Start time: 16:41:40 on Oct 03,2018
+# Loading work.couter4bit
 add wave -position insertpoint  \
-sim:/tb_DFF/D \
-sim:/tb_DFF/clk \
-sim:/tb_DFF/reset \
-sim:/tb_DFF/Q
-run -all
-# Break key hit
-# Simulation stop requested.
-
-
+sim:/couter4bit/clk \
+sim:/couter4bit/reset \
+sim:/couter4bit/out
+run 300 ns
 quit -sim
-# End time: 09:47:28 on Sep 06,2018, Elapsed time: 0:03:11
+# End time: 16:42:25 on Oct 03,2018, Elapsed time: 0:00:45
 # Errors: 0, Warnings: 0
-vsim work.tb_DFF
-# vsim work.tb_DFF 
-# Start time: 09:48:59 on Sep 06,2018
-# Loading work.tb_DFF
-# Loading work.RisingEdge_DFlipFlop_SyncReset
-add wave -position insertpoint  \
-sim:/tb_DFF/D \
-sim:/tb_DFF/clk \
-sim:/tb_DFF/reset \
-sim:/tb_DFF/Q
-
-run -all
-# Break key hit
-# Simulation stop requested.
+vsim work.couter4bit
+# vsim work.couter4bit 
+# Start time: 16:42:32 on Oct 03,2018
+# Loading work.couter4bit
 quit -sim
-# End time: 09:51:09 on Sep 06,2018, Elapsed time: 0:02:10
+# End time: 16:42:38 on Oct 03,2018, Elapsed time: 0:00:06
 # Errors: 0, Warnings: 0
-quit 
+quit
