@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/userdata/ncs/nguyenduyanh/Workspace/LIF_CORE_VHDL/SIM/script
+T_opt
+Vlja^71VXba43ET@:zob]z0
+04 11 11 work lif_core_tb lif_core_tb 1
+=1-901b0ed04114-5acf1c33-ee078-8b9a
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1d;51
+Ccfg_tb_lif_core
+atb
+etb_LIF_CORE
+DAx4 work 11 tb_lif_core 2 tb 22 ?:;K<@g4Fd87XkITlCI500
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z3 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z4 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DEx4 work 11 tb_lif_core 0 22 0PocGSGHa]LFLjMofQ?;=1
+Z8 w1523518070
+Z9 d/home/userdata/ncs/nguyenduyanh/Workspace/LIF_CORE_VHDL/SIM/script
+Z10 8../../TB/LIF_CORE_TB.vhd
+Z11 F../../TB/LIF_CORE_TB.vhd
+l0
+L109
+VgVoI=XRBB6iRTNWz2OH]i3
+Z12 OE;C;10.1d;51
+33
+Z13 !s108 1523518191.334950
+Z14 !s90 -2008|-work|work|../../TB/LIF_CORE_TB.vhd|
+Z15 !s107 ../../TB/LIF_CORE_TB.vhd|
+Z16 o-2008 -work work
+Z17 tExplicit 1
+!s100 SBo@Pf_9ZK5kjf51En6_o0
+!i10b 0
+Pconf
+R1
+R2
+R3
+R4
+R5
+R6
+w1523518754
+R9
+8../../RTL/conf.vhd
+F../../RTL/conf.vhd
+l0
+L8
+VH@_[702<oN?ma^;BWBT@23
+R12
+33
+R16
+R17
+!s100 `aGJf986D:?dVU?P1G0aH2
+!i10b 1
+!s108 1523522585.780265
+!s90 -reportprogress|300|-2008|-work|work|../../RTL/conf.vhd|
+!s107 ../../RTL/conf.vhd|
+Elif_core
+Z18 w1523520142
+Z19 DPx4 work 4 conf 0 22 H@_[702<oN?ma^;BWBT@23
+R1
+R2
+R3
+R4
+R5
+R6
+R9
+Z20 8../../RTL/LIF_CORE.vhd
+Z21 F../../RTL/LIF_CORE.vhd
+l0
+L8
+V35=Dj><W6FgfE3T`eI;6A0
+R12
+33
+Z22 !s108 1523522586.227277
+Z23 !s90 -reportprogress|300|-2008|-work|work|../../RTL/LIF_CORE.vhd|
+Z24 !s107 ../../RTL/LIF_CORE.vhd|
+R16
+R17
+!s100 dRZWafafgPez:1@KfD<:e3
+!i10b 1
+Abehavioral
+R19
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 lif_core 0 22 35=Dj><W6FgfE3T`eI;6A0
+l33
+L22
+VV7cY@mCL3Q]3REoCVl2HA3
+R12
+33
+R22
+R23
+R24
+R16
+R17
+!s100 [FT0bMTCC1ObaN7fi4[mb3
+!i10b 1
+Elif_core_tb
+Z25 w1523522367
+R19
+R1
+R2
+R3
+R4
+R5
+R6
+R9
+R10
+R11
+l0
+L8
+V4MVG1U5z>2?Vml[TZY1UT2
+R12
+33
+Z26 !s90 -reportprogress|300|-2008|-work|work|../../TB/LIF_CORE_TB.vhd|
+R16
+R17
+R15
+!s100 TM:9`SoYQ^7KYWm=Qk:la2
+!i10b 1
+!s108 1523522586.822697
+Alif_core_tb
+R19
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 11 lif_core_tb 0 22 4MVG1U5z>2?Vml[TZY1UT2
+33
+l38
+L11
+VLmho@J9BfTXK?=`[n8@0_2
+R12
+R26
+R15
+R16
+R17
+!s108 1523521795.418934
+!s100 ]_TZ]WY@[kB9Sk3bz:4BJ1
+!i10b 1
+Etb_lif_core
+R8
+R1
+R2
+R3
+R4
+R5
+R6
+R9
+R10
+R11
+l0
+L8
+V0PocGSGHa]LFLjMofQ?;=1
+R12
+33
+R13
+R14
+R15
+R16
+R17
+!s100 dF;`_i2CiJ]hHjGBCi6OL1
+!i10b 1
+Atb
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l42
+L11
+V?:;K<@g4Fd87XkITlCI500
+R12
+33
+R13
+R14
+R15
+R16
+R17
+!s100 `7dF9?e3gTTFVzb;eVeXf3
+!i10b 1

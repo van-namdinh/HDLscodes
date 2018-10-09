@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : threshold_reset_unit
+Version: K-2015.06
+Date   : Fri Aug 24 16:08:41 2018
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: i_M[0] (input port clocked by i_clk)
+  Endpoint: o_V[7] (output port clocked by i_clk)
+  Path Group: i_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  threshold_reset_unit
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock i_clk (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  i_M[0] (in)                              0.00       0.00 r
+  U107/ZN (AND2_X1)                        0.07       0.07 r
+  U159/ZN (INV_X1)                         0.03       0.10 f
+  U160/ZN (NOR2_X1)                        0.06       0.16 r
+  U161/ZN (INV_X1)                         0.04       0.20 f
+  U163/ZN (AOI222_X1)                      0.15       0.34 r
+  U164/ZN (INV_X1)                         0.04       0.38 f
+  U166/ZN (AOI222_X1)                      0.13       0.51 r
+  U194/CO (FA_X1)                          0.10       0.60 r
+  U168/ZN (INV_X1)                         0.03       0.64 f
+  U170/ZN (AOI222_X1)                      0.12       0.76 r
+  U180/CO (FA_X1)                          0.10       0.86 r
+  U172/ZN (INV_X1)                         0.03       0.89 f
+  U174/ZN (AOI222_X1)                      0.13       1.02 r
+  U175/ZN (NOR2_X1)                        0.03       1.05 f
+  U176/ZN (AOI211_X1)                      0.09       1.14 r
+  U179/Z (XOR2_X1)                         0.05       1.19 f
+  U204/ZN (AND2_X1)                        0.05       1.23 f
+  U205/ZN (AOI21_X1)                       0.06       1.29 r
+  U206/ZN (NAND2_X1)                       0.03       1.32 f
+  U207/ZN (OAI21_X1)                       0.04       1.36 r
+  U209/ZN (NAND4_X1)                       0.06       1.42 f
+  U216/ZN (NOR2_X1)                        0.14       1.56 r
+  U217/ZN (OR2_X1)                         0.13       1.69 r
+  U222/Z (XOR2_X1)                         0.06       1.76 f
+  U232/CO (FA_X1)                          0.10       1.85 f
+  U251/CO (FA_X1)                          0.11       1.96 f
+  U263/CO (FA_X1)                          0.09       2.05 f
+  U276/CO (FA_X1)                          0.09       2.15 f
+  U288/CO (FA_X1)                          0.09       2.24 f
+  U301/CO (FA_X1)                          0.09       2.33 f
+  U316/CO (FA_X1)                          0.09       2.43 f
+  U317/Z (XOR2_X1)                         0.08       2.50 f
+  U320/ZN (NOR2_X1)                        0.04       2.54 r
+  U321/ZN (NOR2_X1)                        0.02       2.56 f
+  o_V[7] (out)                             0.00       2.57 f
+  data arrival time                                   2.57
+
+  clock i_clk (rise edge)                  4.00       4.00
+  clock network delay (ideal)              0.00       4.00
+  clock uncertainty                        0.00       4.00
+  output external delay                    0.00       4.00
+  data required time                                  4.00
+  -----------------------------------------------------------
+  data required time                                  4.00
+  data arrival time                                  -2.57
+  -----------------------------------------------------------
+  slack (MET)                                         1.43
+
+
+1

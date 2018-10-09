@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : leak_unit
+Version: K-2015.06
+Date   : Fri Aug 24 15:54:04 2018
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/dkit/FreePDK45/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/db/CCS/NangateOpenCellLibrary_typical_ccs.db)
+
+Number of ports:                           25
+Number of nets:                            69
+Number of cells:                           52
+Number of combinational cells:             52
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         11
+Number of references:                      14
+
+Combinational area:                 53.200000
+Buf/Inv area:                        5.852000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    53.200000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+leak_unit                           53.2000    100.0   53.2000     0.0000  0.0000  leak_unit
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  53.2000     0.0000  0.0000
+
+1

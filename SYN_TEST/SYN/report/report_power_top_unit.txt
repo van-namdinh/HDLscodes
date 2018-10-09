@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -verbose
+Design : top_unit
+Version: K-2015.06
+Date   : Mon Aug 27 11:44:33 2018
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/dkit/FreePDK45/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/db/CCS/NangateOpenCellLibrary_typical_ccs.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top_unit               5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  33.4405 uW   (50%)
+  Net Switching Power  =  34.0500 uW   (50%)
+                         ---------
+Total Dynamic Power    =  67.4906 uW  (100%)
+
+Cell Leakage Power     =  16.0272 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+                 Internal         Switching           Leakage            Total                         Cell
+Power Group      Power            Power               Power              Power   (   %    )  Attrs  Count
+---------------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+sequential         5.9730            0.7544        2.7282e+03            9.4557  (  11.32%)            33
+combinational     27.4675           33.2956        1.3299e+04           74.0622  (  88.68%)            473
+---------------------------------------------------------------------------------------------------------
+Total             33.4405 uW        34.0500 uW     1.6027e+04 nW        83.5178 uW
+1

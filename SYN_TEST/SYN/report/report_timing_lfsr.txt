@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LFSR
+Version: K-2015.06
+Date   : Mon Aug 27 10:45:00 2018
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: r_LFSR_reg[5]
+              (rising edge-triggered flip-flop)
+  Endpoint: o_LFSR_Data[4]
+            (output port clocked by i_Clk)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LFSR               5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  r_LFSR_reg[5]/CK (DFF_X1)                0.00       0.00 r
+  r_LFSR_reg[5]/Q (DFF_X1)                 0.09       0.09 r
+  o_LFSR_Data[4] (out)                     0.00       0.10 r
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

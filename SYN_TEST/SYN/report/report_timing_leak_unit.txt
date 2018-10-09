@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : leak_unit
+Version: K-2015.06
+Date   : Fri Aug 24 15:54:04 2018
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: i_leak_weight[0]
+              (input port)
+  Endpoint: o_leak_weight[7]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  leak_unit          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  i_leak_weight[0] (in)                    0.00       0.00 f
+  U64/ZN (NOR4_X1)                         0.13       0.13 r
+  U66/ZN (NAND2_X1)                        0.05       0.17 f
+  U67/ZN (NAND2_X1)                        0.04       0.21 r
+  U68/Z (XOR2_X1)                          0.05       0.26 f
+  U94/ZN (OAI211_X1)                       0.06       0.32 r
+  U96/ZN (NAND2_X1)                        0.04       0.36 f
+  U97/ZN (AOI222_X1)                       0.11       0.47 r
+  U98/ZN (OAI211_X1)                       0.05       0.52 f
+  U99/ZN (NOR3_X1)                         0.09       0.61 r
+  U103/ZN (NAND2_X1)                       0.07       0.68 f
+  U113/ZN (OAI21_X1)                       0.05       0.73 r
+  o_leak_weight[7] (out)                   0.00       0.74 r
+  data arrival time                                   0.74
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
