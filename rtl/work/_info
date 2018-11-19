@@ -29,24 +29,25 @@ r1
 !i113 1
 Z4 tCvgOpt 0
 vcouter4bit
-!s110 1538559647
+!s110 1541922311
 !i10b 1
 !s100 kNnQ:c`<^NQgkEmDeK3Ui0
-IFDP@]<iF>Ii9EILX2YUF12
+I`7Snf`4gPiR>5dWCH_Yc82
 R1
 R0
-w1538559413
-8couter4bit.v
-Fcouter4bit.v
+Z5 w1540290959
+8/home/vnd/WORK/HDLscodes/rtl/couter4bit.v
+F/home/vnd/WORK/HDLscodes/rtl/couter4bit.v
 R2
 R3
 r1
 !s85 0
 31
-!s108 1538559647.000000
-!s107 couter4bit.v|
-!s90 -reportprogress|300|couter4bit.v|
+!s108 1541922311.000000
+!s107 /home/vnd/WORK/HDLscodes/rtl/couter4bit.v|
+!s90 -reportprogress|300|-work|work|/home/vnd/WORK/HDLscodes/rtl/couter4bit.v|
 !i113 1
+Z6 o-work work
 R4
 vDW01_absval_inst
 !s110 1537359034
@@ -111,6 +112,66 @@ r1
 !i113 1
 R4
 n@d@w01_add_oper
+vfifo_mem
+Z7 !s110 1541922011
+!i10b 1
+!s100 o42eDLHmhWiQCz7>R24DT1
+I6PgY;zWnd:0]IGThf`GMV3
+R1
+R0
+R5
+Z8 8fifomem.v
+Z9 Ffifomem.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z10 !s108 1541922011.000000
+Z11 !s107 fifomem.v|
+Z12 !s90 -reportprogress|300|fifomem.v|
+!i113 1
+R4
+vlfsr_updown
+Z13 !s110 1541922834
+!i10b 1
+!s100 [:A@H[Z8iS5SL=nKgF]z41
+IdKjCl:Cbk3Qn65FgJBC<X3
+R1
+R0
+w1541922636
+8lfsr_updown.v
+Flfsr_updown.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z14 !s108 1541922834.000000
+Z15 !s107 lfsr_updown.v|lfsr_updown_tb.v|
+Z16 !s90 lfsr_updown_tb.v|
+!i113 1
+R4
+vmemory_array
+R7
+!i10b 1
+!s100 d[UnB6>GkPd0ICjeefW5@1
+I@gD@E>Y`FfAVMi[NbE;A22
+R1
+R0
+R5
+R8
+R9
+L0 19
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
 vmux2
 !s110 1535361639
 !i10b 1
@@ -131,6 +192,26 @@ r1
 !s90 mux2.v|
 !i113 1
 R4
+vread_pointer
+R7
+!i10b 1
+!s100 OGn1@X75V<g[kd?nA@3Ve1
+I:CT9gg==RIXQj>4AKic5H3
+R1
+R0
+R5
+R8
+R9
+L0 36
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
 vRisingEdge_DFF_Asyn
 !s110 1536201478
 !i10b 1
@@ -141,7 +222,7 @@ R0
 w1536201475
 8dff_asynch.v
 Fdff_asynch.v
-Z5 L0 12
+Z17 L0 12
 R3
 r1
 !s85 0
@@ -160,15 +241,15 @@ ITD<1e0a@Dde=5JP^QFPaf0
 R1
 R0
 w1536201236
-Z6 8dff_synch.v
-Z7 Fdff_synch.v
-R5
+Z18 8dff_synch.v
+Z19 Fdff_synch.v
+R17
 R3
 r1
 !s85 0
 31
 !s108 1536201239.000000
-Z8 !s107 dff_synch.v|
+Z20 !s107 dff_synch.v|
 !s90 dff_synch.v|
 !i113 1
 R4
@@ -183,7 +264,7 @@ R0
 w1536200930
 8dff_basic.v
 Fdff_basic.v
-R5
+R17
 R3
 r1
 !s85 0
@@ -202,38 +283,79 @@ I6eAcSfJo6S<M:o2cDAoj01
 R1
 R0
 w1536201819
-R6
-R7
-R5
+R18
+R19
+R17
 R3
 r1
 !s85 0
 31
 !s108 1536201844.000000
-R8
+R20
 !s90 -reportprogress|300|dff_synch.v|
 !i113 1
 R4
 n@rising@edge_@d@flip@flop_@sync@reset
-vtb_counter
-!s110 1538559667
+vstatus_signal
+R7
 !i10b 1
-!s100 KM_UGT_0kPm3a2n?DeX723
-I3^K0EH0^gX`<?55@PQ8jG1
+!s100 6HIXQJ1SNBenK1GJiZhJO1
+IeCnfHUKC1[AS8I=J58fl=3
 R1
 R0
-w1538559613
-8couter4bit_tb.v
-Fcouter4bit_tb.v
+R5
+R8
+R9
+L0 54
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+vtb
+R13
+!i10b 1
+!s100 Cn3QPP1LbSX<4k7loS?>e0
+I=gc0B_172lo8c2Nb`UWUj0
+R1
+R0
+w1541922824
+8lfsr_updown_tb.v
+Flfsr_updown_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R4
+vtb_counter
+!s110 1541922315
+!i10b 1
+!s100 KM_UGT_0kPm3a2n?DeX723
+IBT@aXQLhhk_GPTjalceSJ2
+R1
+R0
+R5
+8/home/vnd/WORK/HDLscodes/rtl/couter4bit_tb.v
+F/home/vnd/WORK/HDLscodes/rtl/couter4bit_tb.v
 R2
 R3
 r1
 !s85 0
 31
-!s108 1538559667.000000
-!s107 couter4bit_tb.v|
-!s90 -reportprogress|300|couter4bit_tb.v|
+!s108 1541922315.000000
+!s107 /home/vnd/WORK/HDLscodes/rtl/couter4bit_tb.v|
+!s90 -reportprogress|300|-work|work|/home/vnd/WORK/HDLscodes/rtl/couter4bit_tb.v|
 !i113 1
+R6
 R4
 vtb_DFF
 !s110 1536201851
@@ -256,6 +378,26 @@ r1
 !i113 1
 R4
 ntb_@d@f@f
+vtb_fifo_32
+!s110 1541922017
+!i10b 1
+!s100 FcQIVYoZ]eSz>4ILMAD;P3
+IP<lHTB^8h]11`QfDQDkEc1
+R1
+R0
+R5
+8fifomemTB.v
+FfifomemTB.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1541922017.000000
+!s107 fifomemTB.v|
+!s90 -reportprogress|300|fifomemTB.v|
+!i113 1
+R4
 vtb_N_bit_adder
 !s110 1535360206
 !i10b 1
@@ -295,5 +437,25 @@ r1
 !s108 1538384503.000000
 !s107 dff8ar_vndv1.v|
 !s90 dff8ar_vndv1.v|
+!i113 1
+R4
+vwrite_pointer
+R7
+!i10b 1
+!s100 S>SGY4Ucm0<4X`^d1?`VU1
+IbUR<Z>jlm?QS=Zg^hLI8K0
+R1
+R0
+R5
+R8
+R9
+L0 97
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
 !i113 1
 R4
