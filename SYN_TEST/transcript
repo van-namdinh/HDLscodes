@@ -1,12 +1,11 @@
-# //  Questa Sim
-# //  Version 10.1d linux Nov  1 2012
-# //
-# //  Copyright 1991-2012 Mentor Graphics Corporation
-# //  All Rights Reserved.
-# //
-# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
-# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
-# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
-# //
-# Loading project First v
-quit
+# vsim -c work.arb_test_top 
+# Start time: 12:59:09 on Nov 19,2018
+# Loading work.arb_test_top
+# Loading work.arb
+# ** Error: (vsim-3033) arb.test_top.v(17): Instantiation of 'arb_test' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /arb_test_top File: arb.test_top.v
+#         Searched libraries:
+#             /home/vnd/WORK/HDLscodes/SYN_TEST/work
+# Error loading design
+# End time: 12:59:09 on Nov 19,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vnd/WORK/HDLscodes/SYN_TEST
+varb
+!s110 1542607020
+!i10b 1
+!s100 MK<i>EJf7Yb^5FG9O7GF^2
+IeUW9C6??1aRX9Uh=OGGFT0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1542606905
+8arb.v
+Farb.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1542607020.000000
+!s107 arb.v|
+!s90 arb.v|
+!i113 1
+Z3 tCvgOpt 0
+varb_test_top
+!s110 1542607146
+!i10b 1
+!s100 EgL?XmWOYRcJ]b_7T=:7>3
+I306C@3lc>dmzU<31H`U`z0
+R1
+R0
+w1542607138
+8arb.test_top.v
+Farb.test_top.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1542607146.000000
+!s107 arb.test_top.v|
+!s90 arb.test_top.v|
+!i113 1
+R3
